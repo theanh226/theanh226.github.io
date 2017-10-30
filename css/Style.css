@@ -1,0 +1,243 @@
+/* === Part 1 === */
+.margin-top {
+	margin-top: 30px;
+}
+.margin-bottom {
+	margin-bottom: 30px;
+}
+.no-padding-bottom {
+	padding-bottom: 0;
+}
+.text-primary {
+	color: #2b90d9;
+}
+h1, h2{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 70px;
+	font-weight: 700;
+	line-height: 1.2;
+	color: #000000;
+	padding-top:20px;
+}
+
+@media (min-width: 1200px) {
+	.text-intro h1 {
+		font-size: 70px;
+	}
+}
+
+/* === End Part 1 === */
+
+/* === Part 2 ==== */
+.heading {
+	text-align: left;
+	margin-bottom: 40px;
+}
+.heading:after {
+	content: " ";
+	display: block;
+	width: 100px;
+	height: 2px;
+	margin: 20px 0 20px;
+	background: #2b90d9;
+}
+
+.lead {
+	margin-bottom: 24px;
+	font-size: 18px;
+}
+@media (min-width: 768px) {
+	.lead {
+		font-size: 24px;
+	}
+}
+
+.margin-bottom--big {
+	margin-bottom: 60px !important;
+}
+
+.no-space .box {
+	margin: 0 -15px;
+}
+
+.fadeInDown{
+	animation-duration: 3s;
+}
+
+img.image.img-circle.img-responsive{
+	max-width:70%;
+}
+
+.zoomIn{
+	animation-duration: 4s;
+	animation-delay: 6s;
+	
+
+}
+.progress-title {
+	text-align: left;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	color: #999999;
+	font-size: 12px;
+}
+
+.progress-bar-skill1 {
+	background-color: #d1d1d1;
+	background-color: #81bde9;
+}
+.progress-bar-skill2 {
+	background-color: #c8c7c7;
+	background-color: #6cb2e5;
+}
+.progress-bar-skill3 {
+	background-color: #bdbdbd;
+	background-color: #56a7e1;
+}
+.progress-bar-skill4 {
+	background-color: #b3b2b2;
+	background-color: #419bdd;
+}
+/* === customer === */
+.customer {
+	text-align: center;
+}
+.customer img {
+	display: inline-block;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+}
+.customer img:hover {
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+
+section#customers.section.background-gray-lightest{
+	background: #f7f7f7;
+	border-top: solid 1px #eeeeee;
+	border-bottom: solid 1px #eeeeee;
+}
+
+.section{
+	position: relative; 
+	padding-top: 90px;
+	padding-bottom: 90px;
+}
+
+/* === contact === */
+.contact-form {
+	margin-bottom: 20px;
+}
+p.social {
+	text-align: center;
+	margin-top: 20px;
+}
+p.social a {
+	margin: 0 10px 0 0;
+	color: #fff;
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+	line-height: 40px;
+	font-size: 15px;
+	text-align: center;
+	-webkit-transition: all 0.2s ease-out;
+	-moz-transition: all 0.2s ease-out;
+	transition: all 0.2s ease-out;
+	vertical-align: bottom;
+	border: solid 1px #ccc;
+}
+p.social a i {
+	vertical-align: bottom;
+	line-height: 40px;
+}
+p.social a.facebook {
+	background-color: #4460ae;
+	border-color: #4460ae;
+}
+p.social a.gplus {
+	background-color: #c21f25;
+	border-color: #c21f25;
+}
+p.social a.twitter {
+	background-color: #3cf;
+	border-color: #3cf;
+}
+p.social a.instagram {
+	background-color: #cd4378;
+	border-color: #cd4378;
+}
+p.social a.email {
+	background-color: #4a7f45;
+	border-color: #4a7f45;
+}
+p.social a.link {
+	background-color: #871AFF;
+	border-color: #871AFF;
+}
+p.social.social--outline a {
+	background: transparent;
+}
+p.social.social--outline a.facebook {
+	color: #4460ae;
+	border-color: #4460ae;
+}
+p.social.social--outline a.gplus {
+	color: #c21f25;
+	border-color: #c21f25;
+}
+p.social.social--outline a.twitter {
+	color: #3cf;
+	border-color: #3cf;
+}
+p.social.social--outline a.instagram {
+	color: #cd4378;
+	border-color: #cd4378;
+}
+p.social.social--outline a.email {
+	color: #4a7f45;
+	border-color: #4a7f45;
+}
+p.social.social--outline a.link {
+	color: #871AFF;
+	border-color: #871AFF;
+}
+
+.container-fluid.map{
+	padding-right: 0px; 
+	padding-left: 0px;
+	margin-bottom: 8px;
+	margin-right: auto;
+	margin-left: auto
+}
+
+ekko-lightbox .modal-footer {
+	text-align: left;
+}
+.no-padding-top {
+	padding-top: 0;
+}
+.no-padding-bottom {
+	padding-bottom: 0;
+}
+.footer__copyright {
+	background: #282c37;
+	color: #ccc;
+	padding: 20px 0;
+	font-size: 14px;
+	line-height: 28px;
+}
+.footer__copyright p {
+	margin: 0;
+}
+@media (max-width: 991px) {
+	.footer__copyright p {
+		float: none !important;
+		text-align: center;
+		margin-bottom: 10px;
+	}
+}
